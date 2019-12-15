@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            background: mistyrose;
+        }
+        #firecracker {
+            float: left;
+            position: absolute;
+            top: 3%;
+            left: 3%;
+            border: 16px ridge lightseagreen;
+        }
+        .heading {
+            position: absolute;
+            top: -10%;
+            left: 30.5%;
+            text-align: center;
+            text-decoration: underline;
+            font-family: Brush Script MT;
+            font-size: 63px;
+            font-weight: bold;
+            color: rgb(173, 39, 194);
+        }
+         #subheading {
+            position: absolute;
+            top: 17%;
+            left: 37.3%;
+            text-align: center;
+            font-size: 24px;
+            font-family: serif;
+            font-style: oblique;
+            font-weight: bold;
+            color: rgb(10, 69, 247);
+          }
+          #ndp 
+          {
+              font-size: 36px;
+          }
+          ul {
+              color: rgb(255, 25, 25);
+          }
+          .points {
+              position: absolute;
+              top: 51%;
+              left: 6.8%;
+              line-height: 1.6;
+              font-family: serif;
+              font-style: italic;
+              font-size: 17px;
+              font-weight: bold;
+              color: navy;
+          }
+          #host {
+              position: absolute;
+              top: 73%;
+              left: 64%;
+              font-family: monospace;
+              font-size: 20px;
+              border: 5px double rgb(3, 24, 250);
+              padding: 3px;
+              color: maroon;
+          }
+          #hp {
+              font-size: 31px;
+              font-style: italic;
+          }
+          #ndp {
+              color: rgb(0, 12, 138);
+          }
+          .emphasize {
+              color: red;
+          }    
+        </style>
+    </head>
+    <body>
+        <span class="body">
+        <h1 class="heading" id="yai">Invitation Card</h1>
+        <h2 id="subheading">To the<br> <span id="ndp">New Decade Party</span><br> this 31st </h2>
+    
+        <ul>
+        <div class="points">
+            <li>Party starts at 2000 sharp & do not ask about the end time</li>
+        
+            <li>Venue is my home.....Hope you know where I live</li>
+
+            <li>Please consider what you wear......the <span class="emphasize" id="decade">DECADE</span> is going to end</li>
+            
+            <li>Heart patients not allowed cause it's going to be <span class="emphasize" id="loud">LOUD</span></li>
+        
+            <li>Party is purely vegetarian</li>
+            
+            <li>Feel free to bring anyone with you</li>
+            
+            <li>Most important thing.........<span class="emphasize" id="enjoy">ENJOY</span></li>
+        </div>    
+        </ul>
+        
+        <p id="host">Hosted By:<br>
+        <span id="hp">Het Patel</span>
+        </p>
+        
+        <img id="firecracker" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Beautiful_large_flower_cracker_creating_brilliant_light_and_sparkles_at_night.jpg/800px-Beautiful_large_flower_cracker_creating_brilliant_light_and_sparkles_at_night.jpg" width="100px">
+        </span>
+    </body>
+</html>
